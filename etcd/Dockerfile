@@ -1,2 +1,1 @@
-FROM k8s.gcr.io/etcd-amd64:3.1.11
-MAINTAINER isaron@sohu.com
+FROM k8s.gcr.io/etcd-amd64:3.1.12
