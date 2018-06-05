@@ -19,11 +19,11 @@ FROM gcr.io/google-containers/nginx-ingress-controller:0.9.0-beta.15
 FROM gcr.io/google_containers/defaultbackend:1.4
 FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.15.0
 
-FROM gcr.io/runconduit/controller:v0.4.1
-FROM gcr.io/runconduit/grafana:v0.4.1
-FROM gcr.io/runconduit/proxy:v0.4.1
-FROM gcr.io/runconduit/proxy-init:v0.4.1
-FROM gcr.io/runconduit/web:v0.4.1
+FROM gcr.io/runconduit/controller:v0.4.2
+FROM gcr.io/runconduit/grafana:v0.4.2
+FROM gcr.io/runconduit/proxy:v0.4.2
+FROM gcr.io/runconduit/proxy-init:v0.4.2
+FROM gcr.io/runconduit/web:v0.4.2
 
 FROM gcr.io/kubernetes-helm/tiller:v2.9.1
 FROM k8s.gcr.io/heapster:v1.3.0

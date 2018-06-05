@@ -1,1 +1,1 @@
-FROM gcr.io/runconduit/web:v0.4.1
+FROM gcr.io/runconduit/web:v0.4.2
