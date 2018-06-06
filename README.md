@@ -32,3 +32,12 @@ FROM k8s.gcr.io/heapster-grafana-amd64:v4.4.3
 FROM k8s.gcr.io/heapster-influxdb-amd64:v1.3.3
 FROM k8s.gcr.io/kube-addon-manager:v8.6
 FROM k8s.gcr.io/addon-resizer:1.7
+
+FROM gcr.io/spinnaker-marketplace/clouddriver:2.0.0-20180221152902
+FROM gcr.io/spinnaker-marketplace/echo:0.8.0-20180221133510
+FROM gcr.io/spinnaker-marketplace/deck:2.1.0-20180221143146
+FROM gcr.io/spinnaker-marketplace/igor:0.9.0-20180221133510
+FROM gcr.io/spinnaker-marketplace/orca:0.10.0-20180221133510
+FROM gcr.io/spinnaker-marketplace/gate:0.10.0-20180221133510
+FROM gcr.io/spinnaker-marketplace/front50:0.9.0-20180221133510
+FROM gcr.io/spinnaker-marketplace/rosco:0.5.0-20180221133510
