@@ -1,1 +1,1 @@
-FROM gcr.io/runconduit/grafana:v0.4.3
+FROM gcr.io/runconduit/grafana:v0.5.0
