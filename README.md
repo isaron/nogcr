@@ -25,7 +25,7 @@ FROM gcr.io/runconduit/proxy:v0.5.0
 FROM gcr.io/runconduit/proxy-init:v0.5.0
 FROM gcr.io/runconduit/web:v0.5.0
 
-FROM gcr.io/kubernetes-helm/tiller:v2.9.1
+FROM gcr.io/kubernetes-helm/tiller:v2.10.0
 FROM k8s.gcr.io/heapster:v1.3.0
 FROM k8s.gcr.io/heapster-amd64:v1.5.4
 FROM k8s.gcr.io/heapster-grafana-amd64:v5.0.4
