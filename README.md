@@ -13,7 +13,7 @@ FROM k8s.gcr.io/etcd-amd64:3.2.18
 FROM k8s.gcr.io/pause-amd64:3.1
 FROM quay.io/coreos/flannel:v0.10.0-amd64
 FROM gcr.io/google_containers/cluster-autoscaler:v1.3.1
-FROM k8s.gcr.io/kubernetes-dashboard-amd64:v1.8.3
+FROM k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.0
 
 FROM gcr.io/google-containers/nginx-ingress-controller:0.9.0-beta.15
 FROM gcr.io/google_containers/defaultbackend:1.4
@@ -33,11 +33,3 @@ FROM k8s.gcr.io/heapster-influxdb-amd64:v1.5.2
 FROM k8s.gcr.io/kube-addon-manager:v8.6
 FROM k8s.gcr.io/addon-resizer:1.7
 
-FROM gcr.io/spinnaker-marketplace/clouddriver:2.0.0-20180221152902
-FROM gcr.io/spinnaker-marketplace/echo:0.8.0-20180221133510
-FROM gcr.io/spinnaker-marketplace/deck:2.1.0-20180221143146
-FROM gcr.io/spinnaker-marketplace/igor:0.9.0-20180221133510
-FROM gcr.io/spinnaker-marketplace/orca:0.10.0-20180221133510
-FROM gcr.io/spinnaker-marketplace/gate:0.10.0-20180221133510
-FROM gcr.io/spinnaker-marketplace/front50:0.9.0-20180221133510
-FROM gcr.io/spinnaker-marketplace/rosco:0.5.0-20180221133510
