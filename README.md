@@ -19,7 +19,7 @@ FROM registry.opensource.zalan.do/teapot/external-dns:latest
 
 FROM gcr.io/google-containers/nginx-ingress-controller:0.9.0-beta.15
 FROM gcr.io/google_containers/defaultbackend:1.4
-FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.17.1
+FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.19.0
 
 FROM gcr.io/runconduit/controller:v0.5.0
 FROM gcr.io/runconduit/grafana:v0.5.0
