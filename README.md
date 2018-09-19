@@ -14,7 +14,7 @@ FROM k8s.gcr.io/pause-amd64:3.1
 FROM quay.io/coreos/flannel:v0.10.0-amd64
 FROM gcr.io/google_containers/cluster-autoscaler:v1.3.1
 FROM k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.0
-FROM k8s.gcr.io/metrics-server-amd64:v0.3.1
+FROM k8s.gcr.io/metrics-server-amd64:v0.3.0
 FROM registry.opensource.zalan.do/teapot/external-dns:latest
 
 FROM gcr.io/google-containers/nginx-ingress-controller:0.9.0-beta.15
