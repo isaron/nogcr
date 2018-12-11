@@ -36,5 +36,5 @@ FROM k8s.gcr.io/kube-addon-manager:v8.6
 FROM k8s.gcr.io/addon-resizer:1.7
 
 FROM k8s.gcr.io/elasticsearch:v6.3.0
-FROM k8s.gcr.io/fluentd-elasticsearch:v2.3.1
+FROM k8s.gcr.io/fluentd-elasticsearch:v2.3.2
 FROM docker.elastic.co/kibana/kibana-oss:6.3.2
