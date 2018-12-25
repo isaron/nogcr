@@ -2,13 +2,13 @@
 
 k8s related docker images.
 
-FROM k8s.gcr.io/kube-apiserver-amd64:v1.11.5
+FROM k8s.gcr.io/kube-apiserver-amd64:v1.11.6
 
-FROM k8s.gcr.io/kube-controller-manager-amd64:v1.11.5
+FROM k8s.gcr.io/kube-controller-manager-amd64:v1.11.6
 
-FROM k8s.gcr.io/kube-scheduler-amd64:v1.11.5
+FROM k8s.gcr.io/kube-scheduler-amd64:v1.11.6
 
-FROM k8s.gcr.io/kube-proxy-amd64:v1.11.5
+FROM k8s.gcr.io/kube-proxy-amd64:v1.11.6
 
 FROM k8s.gcr.io/k8s-dns-dnsmasq-nanny-amd64:1.14.10
 
@@ -22,7 +22,7 @@ FROM k8s.gcr.io/pause-amd64:3.1
 
 FROM quay.io/coreos/flannel:v0.10.0-amd64
 
-FROM gcr.io/google_containers/cluster-autoscaler:v1.3.1
+FROM gcr.io/google_containers/cluster-autoscaler:v1.3.3
 
 FROM k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.0
 
@@ -32,7 +32,7 @@ FROM registry.opensource.zalan.do/teapot/external-dns:latest
 
 FROM gcr.io/google-containers/nginx-ingress-controller:0.9.0-beta.15
 
-FROM gcr.io/google_containers/defaultbackend:1.4
+FROM gcr.io/google_containers/defaultbackend:1.5
 
 FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.19.0
 
@@ -48,7 +48,7 @@ FROM gcr.io/runconduit/proxy-init:v0.5.0
 FROM gcr.io/runconduit/web:v0.5.0
 
 
-FROM gcr.io/kubernetes-helm/tiller:v2.11.0
+FROM gcr.io/kubernetes-helm/tiller:v2.12.1
 
 FROM k8s.gcr.io/heapster:v1.3.0
 
