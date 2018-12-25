@@ -24,7 +24,7 @@ FROM quay.io/coreos/flannel:v0.10.0-amd64
 
 FROM gcr.io/google_containers/cluster-autoscaler:v1.3.3
 
-FROM k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.0
+FROM k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.1
 
 FROM k8s.gcr.io/metrics-server-amd64:v0.3.1
 
