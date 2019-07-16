@@ -48,7 +48,7 @@ FROM gcr.io/runconduit/proxy-init:v0.5.0
 FROM gcr.io/runconduit/web:v0.5.0
 
 
-FROM gcr.io/kubernetes-helm/tiller:v2.13.1
+FROM gcr.io/kubernetes-helm/tiller:v2.14.2
 
 FROM k8s.gcr.io/heapster:v1.3.0
 
