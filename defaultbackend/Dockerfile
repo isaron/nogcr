@@ -1,1 +1,1 @@
-FROM gcr.io/google_containers/defaultbackend:1.5
+FROM k8s.gcr.io/defaultbackend:1.5
