@@ -22,7 +22,7 @@ FROM k8s.gcr.io/etcd-amd64:3.3.10
 
 FROM k8s.gcr.io/pause-amd64:3.1
 
-FROM quay.io/coreos/flannel:v0.10.0-amd64
+FROM quay.io/coreos/flannel:v0.11.0-amd64
 
 FROM gcr.io/google_containers/cluster-autoscaler:v1.15.0
 
