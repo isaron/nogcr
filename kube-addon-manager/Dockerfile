@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/kube-addon-manager:v8.6
+FROM k8s.gcr.io/kube-addon-manager:v9.0.1
