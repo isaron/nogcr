@@ -2,13 +2,13 @@
 
 k8s related docker images.
 
-FROM k8s.gcr.io/kube-apiserver-amd64:v1.15.1
+FROM k8s.gcr.io/kube-apiserver-amd64:v1.15.2
 
-FROM k8s.gcr.io/kube-controller-manager-amd64:v1.15.1
+FROM k8s.gcr.io/kube-controller-manager-amd64:v1.15.2
 
-FROM k8s.gcr.io/kube-scheduler-amd64:v1.15.1
+FROM k8s.gcr.io/kube-scheduler-amd64:v1.15.2
 
-FROM k8s.gcr.io/kube-proxy-amd64:v1.15.1
+FROM k8s.gcr.io/kube-proxy-amd64:v1.15.2
 
 FROM k8s.gcr.io/k8s-dns-node-cache-amd64:1.15.0
 
