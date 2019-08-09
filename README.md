@@ -38,6 +38,7 @@ FROM gcr.io/google_containers/defaultbackend:1.5
 
 FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.25.0
 
+FROM k8s.gcr.io/cluster-proportional-autoscaler-amd64:1.6.0
 
 FROM gcr.io/runconduit/controller:v0.5.0
 
