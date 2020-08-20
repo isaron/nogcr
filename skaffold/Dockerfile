@@ -1,0 +1,1 @@
+FROM gcr.io/k8s-skaffold/skaffold:v0.36.0
