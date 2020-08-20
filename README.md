@@ -32,7 +32,7 @@ FROM k8s.gcr.io/metrics-server-amd64:v0.3.3
 
 FROM registry.opensource.zalan.do/teapot/external-dns:latest
 
-FROM gcr.io/google-containers/nginx-ingress-controller:0.9.0-beta.15
+FROM us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller:v0.34.1
 
 FROM gcr.io/google_containers/defaultbackend:1.5
 

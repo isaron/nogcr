@@ -1,1 +1,1 @@
-FROM gcr.io/google-containers/nginx-ingress-controller:0.9.0-beta.15
+FROM us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller:v0.34.1
