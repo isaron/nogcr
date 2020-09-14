@@ -1,1 +1,1 @@
-FROM registry.opensource.zalan.do/teapot/external-dns:latest
+FROM k8s.gcr.io/external-dns/external-dns:v0.7.3
